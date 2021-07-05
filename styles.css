@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+body {
+  background: white;
+  margin: 0px;
+  font-family: "Computer Modern", sans-serif;
+}
+.theorem {
+  border: 2px solid #cd0e66;
+  background: rgba(205, 14, 102, 0.2);
+  border-radius: 6px;
+  margin-top: calc(1.5em + 18px);
+  margin: auto;
+  width: 90%;
+}
+.theorem h3 {
+  font-size: 18px;
+  margin: 0 0 -20px 10px;
+  color: white;
+  text-align: left;
+  position: relative;
+  top: -20px;
+  width: fit-content;
+  padding: 5px 12px;
+  border-radius: 4px;
+  background: #cd0e66;
+}
+.theorem.definition {
+  border-color: #fd8c00;
+  background: rgba(253, 140, 0, 0.2);
+}
+.theorem.definition h3 {
+  background: #fd8c00;
+}
+.theorem.example {
+  border-color: #22ab24;
+  background: rgba(34, 171, 36, 0.2);
+}
+.theorem.example h3 {
+  background: #22ab24;
+}
+.margin {
+  margin-top: 10px;
+  margin-bottom: 1x;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.vidset {
+  margin: 0 auto;
+  display: block;
+  width: 400px;
+}
+.space {
+  margin-top: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background: #F97E08 linear-gradient(transparent 240px, rgba(0, 0, 0, 0.25));
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+}
+li a {
+  display: block;
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
