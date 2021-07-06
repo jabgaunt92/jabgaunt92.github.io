@@ -20,7 +20,7 @@
 }
 body {
   background: white;
-  margin: 0px;
+  margin: 3px;
   font-family: "Computer Modern", sans-serif;
 }
 .theorem {
@@ -28,7 +28,7 @@ body {
   background: rgba(205, 14, 102, 0.2);
   border-radius: 6px;
   margin-top: calc(1.5em + 18px);
-  margin: auto;
+  margin: 3px;
   width: 90%;
 }
 .theorem h3 {
