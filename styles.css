@@ -22,6 +22,11 @@ body {
   margin: 3px;
   font-family: "Computer Modern", sans-serif;
 }
+
+p {
+  font-size: 14px;
+}
+
 .theorem {
   border: 2px solid #cd0e66;
   background: rgba(205, 14, 102, 0.2);
@@ -56,17 +61,8 @@ body {
 .theorem.example h3 {
   background: #22ab24;
 }
-.margin {
-  margin-top: 10px;
-  margin-bottom: 1x;
-  margin-right: 15px;
-  margin-left: 15px;
-}
 .vidset {
   margin: 0 auto;
   display: block;
   width: 400px;
-}
-.space {
-  margin-top: 5mm;
 }
