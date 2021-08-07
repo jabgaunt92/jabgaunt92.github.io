@@ -7,27 +7,20 @@
   src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
   font-weight: bold;
 }
-
 @font-face {
   font-family: "Computer Modern";
   src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
-  font-style: oblique;
+  font-style: italic, oblique;
 }
-
 @font-face {
   font-family: "Computer Modern";
   src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
   font-weight: bold;
-  font-style: oblique;
+  font-style: italic, oblique;
 }
-
-
 body {
-  margin: 0px;
+  margin: 20px;
   font-family: "Computer Modern", sans-serif;
-  background-color: AliceBlue; 
-  overflow: hidden;
-  height:100%;
 }
 
 .theorem {
@@ -39,7 +32,7 @@ body {
   width: 90%;
 }
 .theorem h3 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 0 -20px 10px;
   color: white;
   text-align: left;
@@ -69,92 +62,3 @@ body {
   display: block;
   width: 400px;
 }
-
-.space {
-  margin-top: 10mm;
-  margin-bottom: 10mm;
-}
-
-.box{
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-
-
-.header {
-  margin: 0px;
-  padding: 0px;
-  text-align: left;
-  background-color: #005597;
-  color: white;
-  font-size: 30px;
-  overflow: hidden;
-}
- 
-.header.h2 {
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-
-img.logo{
-  height:7%;
-  padding-top: 0px;
-  margin: 0px;
-  padding-bottom: 3px;
-  display: inline;
-}
-
-
-.content{
-  margin-left:30%;
-  margin-right:25px;
-  padding:1px 16px;
-  padding-top: 20px; 
-  padding-bottom: 20px;
-  height: 90%;
-  font-size: 20px;
-  overflow: scroll;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0px;
-  width: 25%;
-  background: #F97E08 linear-gradient(transparent 240px, rgba(0, 0, 0, 0.25));
-  position: fixed;
-  height: 100%;
-  overflow: hidden;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
-
-}
-li a {
-  display: block;
-  color: black;
-  padding: 10px 16px;
-  text-decoration: none;
-}
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-ol.space_list li { margin-bottom: 7px; }
-
-.content::-webkit-scrollbar {
-    display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.content {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-
-
