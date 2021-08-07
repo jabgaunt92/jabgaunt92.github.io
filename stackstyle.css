@@ -26,6 +26,7 @@ body {
   margin: 0px;
   font-family: "Computer Modern", sans-serif;
   height:100%;
+  font-size: 20px;
 }
 
 .theorem {
